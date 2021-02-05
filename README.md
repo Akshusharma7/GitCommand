@@ -81,3 +81,12 @@ HEAD Markers : Special Markers Like pointers, points to last commit of current b
 > How to make file untracked or removed from staging area:
 ##### git reset HEAD  new.txt
 
+> Rollback file data to any point in time:
+##### git log file.txt
+Get commit id, at what point we want to rollback
+##### git reset commitID file.txt
+##### git checkout -- file.txt
+
+
+
+
