@@ -72,3 +72,9 @@ Its shows error auto merging conflict
 
 ### Note: For this we have to do manual merge, for this we can use any merge tool like p4merge, etc
 
+### ------------------------------------------------------------------
+
+> Setup SSH protocol to github for authentication, that give u passwordless authentication:
+  At workstation, where we have local git repo, create private and public ssh key :
+#### ssh-keygen
+
