@@ -103,4 +103,24 @@ Get commit id, at what point we want to rollback
 ##### git hist test.txt
 
 
+> Rename file in git
+##### git mv test.txt   testnew.txt
+##### git commit -m “comment rename”  testnew.txt
+##### git commit -m “commit delete” test.txt
+
+> Delete file in git
+##### git rm file.txt
+##### git commit -m “comment delete” file.txt
+##### git commit -m “commit delete” file.txt
+
+> Managing file deleting or copy from outside working directory:
+##### cp outfile.txt   demo/
+##### rm text.txt
+
+> To update git for deletion
+##### git add -u
+
+> For all modification
+##### git add -A
+##### git commit -m “comment” .
 
