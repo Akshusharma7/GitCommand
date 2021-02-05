@@ -124,3 +124,12 @@ Get commit id, at what point we want to rollback
 ##### git add -A
 ##### git commit -m “comment” .
 
+>Excluding file to untracked by git:
+>Let say, we want to ignore all file with png extension
+##### cat > .gitignore
+*.png
+##### git add .gitignore
+##### git commit -m “ignored” .gitignore
+
+##### touch my.png
+##### git status
