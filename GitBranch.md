@@ -14,3 +14,13 @@
 
 #### Manual Merge:
 > Automatic merge not possible, conflicting merge state, changes saved in merge commit
+
+> List of all branches: Note: “*” here means current branch name
+##### git branch
+
+
+##### cat > web.txt
+First line
+
+##### git add .
+##### git commit -m comment1 .
