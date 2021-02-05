@@ -17,3 +17,8 @@ Git commands and use
 ##### git init demo
 ##### cd demo
 ##### ls -a  (there folder .git, that is git repo)
+
+>Set identity to git, that recorded in version log
+##### git config --global user.name “prateek.sharma”
+##### git config --global user.email “prateek@gmail.com”
+
