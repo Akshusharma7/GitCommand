@@ -11,3 +11,9 @@ Git commands and use
 
 > GitHub: git hosting/cloud service for unlimited public repo with no private repo but in business model, we can choose to have private repo also.
 
+> Create GIT repo or initialized git:
+# mkdir myprojects
+# cd myprojects
+# git init demo
+# cd demo
+# ls -a  (there folder .git, that is git repo)
