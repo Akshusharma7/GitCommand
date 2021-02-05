@@ -37,5 +37,9 @@ Remote State : repo shared to centralized system like GITHUB
 > Show the current status of local repo
 ##### git status
 
+> Put file in the staging area, without putting file here, we can't create commit history
+##### git add test.txt
+
+
 
 
