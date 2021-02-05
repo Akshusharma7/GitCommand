@@ -30,5 +30,8 @@ Staging Area : file preparing for commit, first store in staging area, then only
 
 Repository/Commit History : committed with version or save changes to git repo
 
+> Git States with Remote:
+
+Remote State : repo shared to centralized system like GITHUB
 
 
