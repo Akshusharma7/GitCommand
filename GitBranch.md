@@ -1,6 +1,6 @@
 # BRANCH
 
-###Branching:
+### Branching:
 > Timeline of commits, by default branch is master, we can create several branch from master branch
 ### Merge:
 > Merge other branch to master
