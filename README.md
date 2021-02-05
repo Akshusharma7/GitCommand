@@ -87,6 +87,20 @@ Get commit id, at what point we want to rollback
 ##### git reset commitID file.txt
 ##### git checkout -- file.txt
 
+> Get clone of project over the network using ssh:
+##### git clone root@remoteip:/myprojects/demo
+
+
+
+> Get git help of subcommand:
+##### git help log
+##### git log --oneline --graph --decorate --all
+
+> Create alias in git:
+##### git config --global alias.hist “log --oneline --graph --decorate --all”
+##### git config --global --list
+##### git hist
+##### git hist test.txt
 
 
 
