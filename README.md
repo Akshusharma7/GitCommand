@@ -34,4 +34,8 @@ Repository/Commit History : committed with version or save changes to git repo
 
 Remote State : repo shared to centralized system like GITHUB
 
+> Show the current status of local repo
+##### git status
+
+
 
