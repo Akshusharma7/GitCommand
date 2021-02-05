@@ -23,6 +23,7 @@ Git commands and use
 ##### git config --global user.email “prateek@gmail.com”
 
 >Git States with Local:
+
 Working Directory : all files present in above “demo” folder 
 
 Staging Area : file preparing for commit, first store in staging area, then only we can commit
