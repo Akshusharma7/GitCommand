@@ -43,3 +43,32 @@ Second line
 > Delete branch:
 ##### git branch -d dev2
 
+##### -------------------------
+> Manual Merge - Conflicting merge resolution:
+
+##### cat > app.txt
+Data1
+
+Data2
+
+##### git add .
+##### git commit -m com1 .
+
+##### git checkout -b dev2
+##### vim app.txt
+
+Changes data1 to newdata(in first line)
+
+##### git commit -m com2 .
+
+##### git checkout master
+##### vim app.txt
+Changes data1 to masterdata(in first line)
+
+##### git commit -m com3 .
+
+##### git merge dev2
+Its shows error auto merging conflict
+
+### Note: For this we have to do manual merge, for this we can use any merge tool like p4merge, etc
+
