@@ -6,7 +6,7 @@
 ### Merge:
 > Merge other branch to master
 
-###Fast forward merge:
+### Fast forward merge:
 > Simplest case, like never branched , commits on destination, can be disabled
 
 ### Automatic merge:
