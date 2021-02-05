@@ -77,4 +77,5 @@ Its shows error auto merging conflict
 > Setup SSH protocol to github for authentication, that give u passwordless authentication:
   At workstation, where we have local git repo, create private and public ssh key :
 #### ssh-keygen
+> Keep your private key here at local and send public to github.com, to authorized your local workstation, for this go to github.com : login to account :
 
