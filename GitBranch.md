@@ -24,3 +24,15 @@ First line
 
 ##### git add .
 ##### git commit -m comment1 .
+
+> Create new branch “dev2” and its pull all file data from master branch
+##### git checkout -b dev2
+##### cat >> web.txt
+Second line
+
+> Commit data in current branch “dev2”
+##### git commit -m comment2 .
+
+> Switch to master branch
+##### git checkout master
+
