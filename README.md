@@ -44,5 +44,25 @@ Remote State : repo shared to centralized system like GITHUB
 > Send file to repo/commit area, here we have created snapshot of file means version of file
 ##### git commit -m “first comment” text.txt
 
+>To check all version of file, every commit they provide commit id
+##### git log test.txt
+
+> See details of log
+##### git show commitID
+
+> We can use commit id’s to see the diff in 2 version
+##### git diff  id1  id2
+
+> Remove git repo
+##### rm -rf .git
+
+> Again create git repo in existing project, go to project folder
+##### git init
+
+> Add all file in staging area
+##### git add .
+
+> Add all file in commit area
+##### git -m “comment” commit .
 
 
