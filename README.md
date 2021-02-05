@@ -41,5 +41,8 @@ Remote State : repo shared to centralized system like GITHUB
 ##### git add test.txt
 
 
+> Send file to repo/commit area, here we have created snapshot of file means version of file
+##### git commit -m “first comment” text.txt
+
 
 
