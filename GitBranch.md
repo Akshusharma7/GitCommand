@@ -36,3 +36,10 @@ Second line
 > Switch to master branch
 ##### git checkout master
 
+##### Note: 
+> You wont able to see, data commit in “dev2” branch. If you want to pull data from “dev2” branch and merge in master branch. Its will do fast forward merge
+##### git merge dev2
+
+> Delete branch:
+##### git branch -d dev2
+
