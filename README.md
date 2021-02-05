@@ -65,4 +65,19 @@ Remote State : repo shared to centralized system like GITHUB
 > Add all file in commit area
 ##### git -m “comment” commit .
 
+> Create new file, that is not by default tracked by git
+##### touch new.txt
+
+> Show tracked file by git
+##### git  ls-files
+
+> Staging and Committing file in one command : Express commit
+##### git commit -a -m “comment” file.txt
+
+Note: not all version of git support this
+
+HEAD Markers : Special Markers Like pointers, points to last commit of current branch
+
+> How to make file untracked or removed from staging area:
+##### git reset HEAD  new.txt
 
